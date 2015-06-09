@@ -3,7 +3,7 @@ package parking.om;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class ParkingFee {
+public class FreeParkingPeriod {
 
 	private int parkingFeeId;
 	

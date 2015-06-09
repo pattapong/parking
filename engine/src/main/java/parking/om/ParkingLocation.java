@@ -10,7 +10,7 @@ public class ParkingLocation {
 	
 	private ParkingCoordinate endingCoordinate;
 	
-	private JSONArray parkingFeeArray;
+	private JSONArray freeParkingTimeArray;
 
 	public int getParkingId() {
 		return parkingId;
@@ -36,12 +36,12 @@ public class ParkingLocation {
 		this.endingCoordinate = endingCoordinate;
 	}
 
-	public JSONArray getParkingFeeArray() {
-		return parkingFeeArray;
+	public JSONArray getFreeParkingTimeArray() {
+		return freeParkingTimeArray;
 	}
 
-	public void setParkingFeeArray(JSONArray parkingFeeArray) {
-		this.parkingFeeArray = parkingFeeArray;
+	public void setFreeParkingTimeArray(JSONArray freeParkingTimeArray) {
+		this.freeParkingTimeArray = freeParkingTimeArray;
 	}
 
 }
