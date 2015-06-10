@@ -9,14 +9,12 @@ import javax.ws.rs.core.MediaType;
 @Path("periods")
 public class FreeParkingPeriod {
 
-	// http://localhost:9080/freeParking/periods
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getLocation() {
 		return "periods";
 	}
 
-	// http://localhost:9080/freeParking/periods/1
 	@GET
 	@Path("{period}")
 	@Produces(MediaType.APPLICATION_JSON)
