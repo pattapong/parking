@@ -2,9 +2,9 @@ package parking.engine;
 
 import org.json.JSONArray;
 
-import parking.om.ParkingFee;
+import parking.om.FreeParkingPeriod;
 
-public class ParkingFeeIdentifier {
+public class FreeParkingIdentifier {
 
 	
 	/**
@@ -21,7 +21,7 @@ public class ParkingFeeIdentifier {
 	 * @param parkingFeeId parking fee ID
 	 * @return ParkingFee object
 	 */
-	public ParkingFee getParkingFeeFromId(final int parkingFeeId){
+	public FreeParkingPeriod getParkingFeeFromId(final int parkingFeeId){
 		return null;
 	}
 	
@@ -31,7 +31,7 @@ public class ParkingFeeIdentifier {
 	 * @param parkingFee ParkingFee object
 	 * @return true if the parking is free to park, otherwise false
 	 */
-	public boolean isFree(ParkingFee parkingFee){
+	public boolean isFree(FreeParkingPeriod parkingFee){
 		return false;
 	}
 }
