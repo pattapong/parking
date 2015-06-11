@@ -1,6 +1,6 @@
 package parking.om;
 
-public class ParkingCoordinate {
+public class Coordinate {
 	double latitude;
 	double longtitude;
 

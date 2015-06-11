@@ -2,13 +2,13 @@ package parking.om;
 
 import org.json.JSONArray;
 
-public class ParkingLocation {
+public class Location {
 
 	private int parkingId;
 	
-	private ParkingCoordinate startingCoordinate;
+	private Coordinate startingCoordinate;
 	
-	private ParkingCoordinate endingCoordinate;
+	private Coordinate endingCoordinate;
 	
 	private JSONArray freeParkingTimeArray;
 
@@ -20,19 +20,19 @@ public class ParkingLocation {
 		this.parkingId = parkingId;
 	}
 
-	public ParkingCoordinate getStartingCoordinate() {
+	public Coordinate getStartingCoordinate() {
 		return startingCoordinate;
 	}
 
-	public void setStartingCoordinate(ParkingCoordinate startingCoordinate) {
+	public void setStartingCoordinate(Coordinate startingCoordinate) {
 		this.startingCoordinate = startingCoordinate;
 	}
 
-	public ParkingCoordinate getEndingCoordinate() {
+	public Coordinate getEndingCoordinate() {
 		return endingCoordinate;
 	}
 
-	public void setEndingCoordinate(ParkingCoordinate endingCoordinate) {
+	public void setEndingCoordinate(Coordinate endingCoordinate) {
 		this.endingCoordinate = endingCoordinate;
 	}
 
